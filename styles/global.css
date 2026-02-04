@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 1100px;
   margin: 0 auto;
@@ -27,6 +31,7 @@ blockquote {
 
 a {
   color: inherit;
+  display: block;
 }
 
 img {
