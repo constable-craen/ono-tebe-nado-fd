@@ -1,1 +1,0 @@
-https://github.com/constable-craen/ono-tebe-nado-fd
