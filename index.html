@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!--Шапка сайта-->
     <header class="header" id="header">
-      <nav>
+      <nav class="heder-menu">
         <ul class="header-menu-list">
-          <li class="header-menu-item menu-item-active">
-            <a class="menu-link">главная</a>
+          <li class="header-menu-item header-menu-item-no_maker">
+            <a class="menu-link menu-item-active">главная</a>
           </li>
-          <li class="header-menu-item menu-item-maker">
+          <li class="header-menu-item">
             <a class="menu-link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header-menu-item menu-item-maker">
+          <li class="header-menu-item">
             <a class="menu-link" href="#about">об аукционе</a>
           </li>
         </ul>
@@ -31,26 +31,22 @@
           src="./images/logo-black.svg"
           alt="Логотип проекта">
       </a>
-      <address class="address">
-        <div class="header-address">
+      <address class="address header-address">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб. Принсенграхт 263-</p>
           <p>265, Амстердам</p>
-        </div>
       </address>
     </header>
     <main>
       <!--Главная секция с главным заголовком-->
       <section class="cover">
         <div class="overlay"></div>
-        <div class="cover-title-container">
-          <h1 class="cover-title">
-            <span class="accent-span">ОНО</span>
-            <span class="accent-span accent-span-center">ТЕБЕ</span>
-            <span class="accent-span accent-span-right">НАД<span class="remove-letter-spasing">О</span></span>
-          </h1>
-        </div>
+        <h1 class="cover-title">
+          <span class="accent-span">Оно</span>
+          <span class="accent-span accent-span-center">Тебе</span>
+          <span class="accent-span accent-span-right">Над<span class="remove-letter-spasing">о</span></span>
+        </h1>
         <div class="description">
           <p class="description-text">Аукцион вещей, вкоторые никто не верил</p>
           <button type="button" class="description-button">
@@ -149,13 +145,11 @@
     </main>
     <!--Подвал сайта-->
     <footer class="footer">
-      <address class="address">
-        <div class="footer-address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <p>наб. Принсенграхт 263-265,</p>
-          <p>Амстердам</p>
-        </div>
+      <address class="address footer-address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
       <nav class="footer-menu">
         <ul class="footer-menu-list">
@@ -172,7 +166,7 @@
       </nav>
       <ul class="footer-menu-social">
         <li class="footer-menu-social-list">
-          <a href="#0">
+          <a href="#0" target="_blank">
             <img 
               class="footer-menu-social-icon" 
               src="./images/yt.svg" 
@@ -180,7 +174,7 @@
           </a>
         </li>
         <li class="footer-menu-social-list">
-          <a href="#0">
+          <a href="#0" target="_blank">
             <img 
               class="footer-menu-social-icon" 
               src="./images/vk.svg" 
@@ -188,7 +182,7 @@
           </a>
         </li>
         <li class="footer-menu-social-list">
-          <a href="#0">
+          <a href="#0" target="_blank">
             <img
               class="footer-menu-social-icon"
               src="./images/pinterest.svg"

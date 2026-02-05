@@ -6,6 +6,11 @@
   margin-bottom: 96px;
 }
 
+.heder-menu {
+  line-height: 1.2em;
+  text-transform: lowercase;
+}
+
 .header-menu-list {
   display: flex;
   gap: 33px;
@@ -14,16 +19,21 @@
   margin-left: 50px;
 }
 
-.menu-item-maker {
+.header-menu-item {
   list-style-type: circle;
 }
 
-.menu-item-active .menu-link {
-  text-decoration: none;
+.header-menu-item-no_maker {
+  list-style: none;
 }
 
 .menu-link {
-  text-underline-offset: 0.3em;
+  text-decoration: underline;
+  text-underline-offset: 0.23em;
+}
+
+.menu-item-active {
+  text-decoration: none;
 }
 
 .header-logo {
@@ -40,20 +50,15 @@
 }
 
 .address {
-  display: flex;
+  display: grid;
   margin-right: 50px;
-}
-
-.header .address {
-  justify-content: end;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.3em;
 }
 
 .header-address {
-  width: 240px;
-  height: 98px;
-  font-size: 18px;
-  line-height: 24.3px;
-  font-style: normal;
+  padding-left: 184px;
 }
 
 .header-address a {
@@ -78,8 +83,8 @@
 }
 
 .cover-title {
-  width: 1000px;
-  min-height: 385px;
+  position: relative;
+  padding: 165px 50px 0;
   color: #fff;
   font-size: 100px;
   font-weight: 700;
@@ -88,18 +93,13 @@
   text-transform: uppercase;
 }
 
-.cover-title-container {
-  padding: 165px 50px 0;
-  position: relative;
-}
-
 .accent-span {
   display: block;
 }
 
 .accent-span-center {
   margin-top: 20px;
-  margin-left: 44.5px;
+  margin-left: 32px;
   text-align: center;
 }
 
@@ -122,7 +122,7 @@
 .description-text {
   color: #fff;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.8em;
   text-transform: uppercase;
   word-spacing: 1em;
   z-index: 1;
@@ -222,7 +222,6 @@
 
 .about {
   width: 1052px;
-  min-height: 595px;
   display: grid;
   gap: 25px;
   grid-template-columns: 334px 1fr;
@@ -273,14 +272,13 @@
 
 .about-text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2em;
 }
 
 .footer {
-  min-height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 74px 50px 0;
+  margin: 42px 50px 0;
 }
 
 .footer .address {
@@ -289,9 +287,8 @@
 
 .footer-address {
   width: 264px;
-  height: 98px;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.3em;
   font-style: normal;
 }
 
